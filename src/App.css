@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+/* -----------------------NAV-BAR------------------------- */
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  padding:  10px 80px;
+}
+
+.logo-sec{
+  display: flex;
+  align-items: center;
+}
+
+.logo-sec  img:nth-child(1){
+  background-color: #39DB4A;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav-sec a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size:16px;
+  font-weight: 500;
+}
+
+.nav-sec li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-sec a:hover{
+  color: #39DB4A;
+}
+
+.nav-sec .material-symbols-outlined{
+  color: #39DB4A;
+}
+
+.nav-sec ul{
+  display: flex;
+  align-items: center;
+  gap:40px;
+}
+
+.contact-sec{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-sec .material-symbols-outlined{
+  font-size:20px
+}
+
+.contact-sec .material-symbols-outlined:hover{
+  cursor: pointer;
+}
+
+.contact-sec button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: white;
+  outline: none;
+  border: none;
+  background: #39DB4A;
+  border-radius: 40px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* ---------------------------MAIN-DIV------------------------------ */
+
+main{
+  display: flex;
+  align-items: center;
+}
+
+.left-div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.food{
+  color:#39DB4A
+}
+
+.marketing-head{
+  font-size:46px;
+  width: 450px;
+  line-height: 60px;
+}
+
+.marketing-para{
+  font-size: 18px;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 30px;
+  width: 450px;
+}
