@@ -1,4 +1,5 @@
 import "./App.css";
+import { Main } from "./Main.1";
 import { NavBar } from "./NavBar";
 
 function App() {
@@ -9,7 +10,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
