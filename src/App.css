@@ -7,6 +7,7 @@
 
 body{
   font-family: 'Inter', sans-serif;
+  background: rgba(211, 211, 211, 0.3);
 }
 
 /* -----------------------NAV-BAR------------------------- */
@@ -35,6 +36,7 @@ nav{
   text-decoration: none;
   font-size:16px;
   font-weight: 500;
+  color: #4A4A4A;
 }
 
 .nav-sec li{
@@ -225,4 +227,122 @@ main{
 .dollar-sign{
   color: red;
   margin-right: 5px;
+  font-weight: 700;
+}
+
+/* ---------------------------CATEGORIES SEC----------------- */
+
+.categories-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 80px 0;
+  text-align: center;
+}
+
+.categories-lines p,.special-lines p{
+  color: red;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.categories-lines h1,.special-lines h1{
+  font-size: 30px;
+}
+
+.category{
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.442);
+  cursor: pointer;
+  background: white;
+}
+
+.categories-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.category img{
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  background:#C1F1C6;
+  padding:  15px;
+  border-radius: 50%;
+}
+
+.dish-variety{
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.special-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.special-img img{
+  margin: 0 auto;
+}
+
+.special-img .heart{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background: #39DB4A;
+  border-radius: 0 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.special-image{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.special-img{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: white;
+}
+
+.spl-img-lines{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.spl-img-lines p:nth-child(1),.spl-img-lines p:nth-child(3){
+  font-weight: 700;
+  font-size: 14px
+}
+
+.spl-img-lines p:nth-child(2){
+color: #4A4A4A;
+font-weight: 500;
 }
