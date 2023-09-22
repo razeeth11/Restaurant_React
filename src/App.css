@@ -306,6 +306,7 @@ main{
   background: #39DB4A;
   border-radius: 0 20px;
   color: white;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -345,4 +346,11 @@ main{
 .spl-img-lines p:nth-child(2){
 color: #4A4A4A;
 font-weight: 500;
+}
+
+
+/* -----------------------TESTIMONIALS-------------------- */
+
+.testimonial{
+  padding: 20px 80px;
 }
