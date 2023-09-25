@@ -50,10 +50,10 @@ export function Categories() {
             <img src="./src/Images/images/spl-3.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
-              <p>Fattoush salad</p>
+              <p>Veg salad</p>
               <p>Description of the item</p>
               <p>
-                <span className="dollar-sign">$</span>24.00
+                <span className="dollar-sign">$</span>29.00
               </p>
             </div>
           </div>
@@ -61,10 +61,10 @@ export function Categories() {
             <img src="./src/Images/images/spl-2.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
-              <p>Fattoush salad</p>
+              <p>Garnish salad</p>
               <p>Description of the item</p>
               <p>
-                <span className="dollar-sign">$</span>24.00
+                <span className="dollar-sign">$</span>18.00
               </p>
             </div>
           </div>
@@ -72,10 +72,10 @@ export function Categories() {
             <img src="./src/Images/images/spl-3.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
-              <p>Fattoush salad</p>
+              <p>Technos salad</p>
               <p>Description of the item</p>
               <p>
-                <span className="dollar-sign">$</span>24.00
+                <span className="dollar-sign">$</span>17.00
               </p>
             </div>
           </div>
