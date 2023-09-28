@@ -2,6 +2,7 @@ import "./App.css";
 import { Categories } from "./Categories";
 import { Main } from "./Main.1";
 import { NavBar } from "./NavBar";
+import { Testimonial } from "./Testimonial";
 
 function App() {
   return (
@@ -9,23 +10,9 @@ function App() {
       <NavBar />
       <Main />
       <Categories />
-      <Testimonial/>
+      <Testimonial />
     </div>
   );
-}
-
-
-function Testimonial(){
-  return(
-    <div className="testimonial">
-       <div className="test-image">
-         
-       </div>
-       <div className="test-lines">
-
-       </div>
-    </div>
-  )
 }
 
 export default App;
