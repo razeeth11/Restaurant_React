@@ -508,10 +508,10 @@ main {
 .service-icon-head {
   font-weight: 900;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .service-icon .material-symbols-outlined {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 100;
 }
