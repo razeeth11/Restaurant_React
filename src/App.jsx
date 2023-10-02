@@ -1,5 +1,6 @@
 import "./App.css";
 import { Categories } from "./Categories";
+import { Contact } from "./Contact";
 import { Main } from "./Main.1";
 import { NavBar } from "./NavBar";
 import { Services } from "./Services";
@@ -13,6 +14,7 @@ function App() {
       <Categories />
       <Testimonial />
       <Services />
+      <Contact />
     </div>
   );
 }
