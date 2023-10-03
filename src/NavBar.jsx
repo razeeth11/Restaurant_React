@@ -2,8 +2,8 @@ export function NavBar() {
   return (
     <nav>
       <div className="logo-sec">
-        <img src="src\Images\images\f.svg" alt="" width="15px" />
-        <img src="src\Images\images\oodi.svg" alt="" width="45px" />
+        <img src="src\Images\f.svg" alt="" width="15px" />
+        <img src="src\Images\oodi.svg" alt="" width="45px" />
       </div>
       <div className="nav-sec">
         <ul>

@@ -5,11 +5,11 @@ export function Contact() {
         <div className="cont-logo-div">
           <img
             className="con-logo"
-            src="src\Images\images\f.svg"
+            src="src\Images\f.svg"
             alt=""
             width="15px"
           />
-          <img src="src\Images\images\oodi.svg" alt="" width="60px" />
+          <img src="src\Images\oodi.svg" alt="" width="60px" />
         </div>
         <p className="contact-para">
           Savor the artistry where every dish is a culinary masterpiece

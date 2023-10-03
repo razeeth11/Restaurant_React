@@ -12,7 +12,7 @@ export function Main() {
         <div className="order-buttons">
           <button className="order">Order Now</button>
           <p className="watch">
-            Watch Video{" "}
+            Watch Video
             <span class="material-symbols-rounded play-btn">play_arrow</span>
           </p>
         </div>
@@ -21,20 +21,20 @@ export function Main() {
         <div className="ellipse">
           <img
             className="ellipse-circle"
-            src="src\Images\images\ellipse-4.svg"
+            src="src\Images\ellipse-4.svg"
             alt=""
             width="500px"
           />
           <img
             className="main-pic"
-            src="src\Images\images\main-pic.png"
+            src="src\Images\main-pic.png"
             alt=""
             width="550px"
           />
           <p className="spicy">Hot Spicy Food🌶️</p>
           <div className="recommend-foods">
             <div className="recommend">
-              <img src="src\Images\images\noodles.png" alt="" width="50px" />
+              <img src="src\Images\noodles.png" alt="" width="50px" />
               <div className="recommend-card">
                 <p className="title">Spicy Noodles</p>
                 <p className="rating">⭐⭐⭐</p>
@@ -44,7 +44,7 @@ export function Main() {
               </div>
             </div>
             <div className="recommend">
-              <img src="src\Images\images\noodles1.png" alt="" width="50px" />
+              <img src="src\Images\noodles1.png" alt="" width="50px" />
               <div className="recommend-card">
                 <p className="title">Vegetarian Salad</p>
                 <p className="rating">⭐⭐⭐</p>

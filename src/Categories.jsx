@@ -8,22 +8,22 @@ export function Categories() {
         </div>
         <div className="categories-img">
           <div className="category">
-            <img src="src/Images/images/cat-1.png" alt="" />
+            <img src="src/Images/cat-1.png" alt="" />
             <p className="dish-variety">Main Dish</p>
             <p className="dishes">(86 Dishes)</p>
           </div>
           <div className="category">
-            <img src="src/Images/images/cat-2.png" alt="" />
+            <img src="src/Images/cat-2.png" alt="" />
             <p className="dish-variety">Break Fast</p>
             <p className="dishes">(12 Dishes)</p>
           </div>
           <div className="category">
-            <img src="src/Images/images/cat-3.png" alt="" />
+            <img src="src/Images/cat-3.png" alt="" />
             <p className="dish-variety">Dessert</p>
             <p className="dishes">(26 Dishes)</p>
           </div>
           <div className="category">
-            <img src="src/Images/images/cat-4.png" alt="" />
+            <img src="src/Images/cat-4.png" alt="" />
             <p className="dish-variety">Browse All</p>
             <p className="dishes">(86 Dishes)</p>
           </div>
@@ -36,7 +36,7 @@ export function Categories() {
         </div>
         <div className="special-image">
           <div className="special-img">
-            <img src="./src/Images/images/spl-1.png" alt="" width="140px" />
+            <img src="./src/Images/spl-1.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
               <p>Fattoush salad</p>
@@ -47,7 +47,7 @@ export function Categories() {
             </div>
           </div>
           <div className="special-img">
-            <img src="./src/Images/images/spl-3.png" alt="" width="140px" />
+            <img src="./public/images/egg-salad.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
               <p>Veg salad</p>
@@ -58,7 +58,7 @@ export function Categories() {
             </div>
           </div>
           <div className="special-img">
-            <img src="./src/Images/images/spl-2.png" alt="" width="140px" />
+            <img src="./src/Images/spl-2.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
               <p>Garnish salad</p>
@@ -69,7 +69,7 @@ export function Categories() {
             </div>
           </div>
           <div className="special-img">
-            <img src="./src/Images/images/spl-3.png" alt="" width="140px" />
+            <img src="./src/Images/spl-1.png" alt="" width="140px" />
             <span class="material-symbols-rounded heart">favorite</span>
             <div className="spl-img-lines">
               <p>Technos salad</p>

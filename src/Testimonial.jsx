@@ -4,13 +4,13 @@ export function Testimonial() {
       <div className="test-image">
         <img
           className="test-img-one"
-          src="./src/Images/images/testimon.png"
+          src="./src/Images/testimon.png"
           alt=""
           width="350px"
         />
         <img
           className="test-img-two"
-          src="./src/Images/images/test-rect.png"
+          src="./src/Images/test-rect.png"
           alt=""
           width="350px"
         />
