@@ -520,9 +520,10 @@ main {
 
 .contact {
   margin-top: 80px;
-  padding: 20px 100px;
+  padding: 30px 100px;
   display: flex;
   justify-content: space-between;
+  background: #c1f1c6;
 }
 
 .cont-logo-div {
@@ -553,7 +554,8 @@ main {
 .links-div{
   display: flex;
   align-items: flex-start;
-  gap: 100px;
+  justify-content: space-around;
+  gap: 150px;
 }
 
 .contact p {
@@ -565,5 +567,5 @@ main {
   text-decoration: none;
   font-weight: 500;
   color: #555;
-  font-size: 14px;
+  font-size: 16px;
 }
